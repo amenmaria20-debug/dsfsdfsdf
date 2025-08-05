@@ -1,0 +1,16 @@
+### 1. Probar el endpoint de prueba (GET)
+# Sirve para verificar que el servidor está corriendo.
+
+GET http://localhost:4000/
+
+---
+
+### 2. Probar el endpoint de búsqueda de personas (POST)
+# Utiliza el formato correcto para el API de Torre.
+
+POST http://localhost:4000/api/search
+Content-Type: application/json
+
+{
+  "query": "Luciano Cayssials"
+}
